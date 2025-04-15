@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - Cooperativa Lechera</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+    .imagen-productos {
+      max-width: 500px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-success">
+    <div class="container d-flex justify-content-between">
+      <span class="navbar-brand">Cooperativa Lechera</span>
+      <div>
+        <a href="index.html" class="btn btn-light btn-sm me-1">Inicio</a>
+        <a href="productos.html" class="btn btn-light btn-sm me-1">Productos</a>
+        <a href="nosotros.html" class="btn btn-light btn-sm me-1">Nosotros</a>
+        <a href="contacto.html" class="btn btn-light btn-sm">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <h2 class="mb-4 text-center">Nuestros Productos</h2>
+    <div class="text-center mb-4">
+      <img src="images/productos.png" class="img-fluid rounded imagen-productos" alt="Imagen de productos">
+    </div>
+    <p class="lead text-center">Ofrecemos una variedad de productos lácteos de alta calidad como quesos, mantequilla y yogures, todos elaborados artesanalmente por nuestros socios de la región.</p>
+  </main>
+
+  <footer class="bg-success text-white text-center py-3">
+    <small>&copy; 2025 Cooperativa Lechera</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
